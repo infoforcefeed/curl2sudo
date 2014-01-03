@@ -9,7 +9,7 @@ existing = 'offenders.json'
 urls_file = 'git_urls.txt'
 
 def get_lines(url, curl2sudos, intermediate_output_file):
-    for i in range(1,5):
+    for i in range(1,20):
         print("Grabbing page {}.".format(i))
 
         r = requests.get('{0}&p={1}'.format(url, i))
@@ -23,6 +23,9 @@ def get_lines(url, curl2sudos, intermediate_output_file):
 
             for line in bubble_lines:
                 low = line.text.lower()
+
+                if curl2sudos.get(low, None) is not None:
+                    continue
 
                 ###########################################
                 # I F  I  W A N T E D  T O  U S E  R E G -
@@ -73,10 +76,11 @@ def get_lines(url, curl2sudos, intermediate_output_file):
                     'score': curl2sudo_score,
                     'title': title['title'],
                     }
+                print("Added {}".format(low))
 
         intermediate_output_file.write(dumps(curl2sudos))
         print("Retrieved page {}. Sleeping.".format(i))
-        sleep(5)
+        sleep(2) # Don't be a jerk, we have time
 
 def main():
     loaded = open(existing, 'r')
@@ -92,21 +96,21 @@ def main():
 
     loaded.close()
 
-    output_file = open(existing, 'w')
+    output_file = open('./{}'.format(existing), 'w')
     intermediate_output_file = open('/tmp/intermediate_{}'.format(existing), 'w')
 
     for url in urls:
+        print("Grabbing from {}".format(url))
         get_lines(url.strip(), curl2sudos, intermediate_output_file)
-        import ipdb; ipdb.set_trace()
 
     output_file.write(dumps(curl2sudos))
 
     intermediate_output_file.close()
-    os.remove(intermediate_output_file)
+    os.remove('/tmp/intermediate_{}'.format(existing))
 
     output_file.close()
     urls.close()
-    diff = len(urls.keys()) - old_len
+    diff = len(curl2sudos.keys()) - old_len
     print("Added {} new videos.".format(diff))
 
 if __name__ == '__main__':
