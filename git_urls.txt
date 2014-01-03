@@ -1,0 +1,4 @@
+https://github.com/search?l=bash&q=curl+%7C+bash&ref=cmdform&type=Code
+https://github.com/search?l=bash&q=curl+%7C+sh&type=Code&ref=searchresults
+https://github.com/search?l=bash&q=wget+%7C+bash&type=Code&ref=searchresults
+https://github.com/search?l=bash&q=wget+%7C+sh&ref=searchresults&type=Code
