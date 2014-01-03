@@ -24,7 +24,7 @@ def get_lines(url, curl2sudos, intermediate_output_file):
             for line in bubble_lines:
                 low = line.text.lower()
 
-                if curl2sudos.get(low, None) is not None:
+                if curl2sudos.get(line.text, None) is not None:
                     continue
 
                 ###########################################
@@ -37,7 +37,7 @@ def get_lines(url, curl2sudos, intermediate_output_file):
                 else:
                     curl2sudo_score = curl2sudo_score + 1
 
-                if ' sh' not in low and ' bash' not in low:
+                if ' sh' not in low and 'bash' not in low:
                     continue
                 else:
                     curl2sudo_score = curl2sudo_score + 1
@@ -71,7 +71,7 @@ def get_lines(url, curl2sudos, intermediate_output_file):
                     curl2sudo_score = curl2sudo_score + 5
 
 
-                curl2sudos[low] = {
+                curl2sudos[line.text] = {
                     'href': 'https://github.com{}'.format(title['href']),
                     'score': curl2sudo_score,
                     'title': title['title'],

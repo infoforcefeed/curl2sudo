@@ -1,1 +1,167 @@
-{"wget --no-check-certificate https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -o - | sh": {"href": "https://github.com/sensae/dotfiles/blob/c621faa998e4579644f5a0d6c3cb68a269ad65fe/install-oh-my-zsh.sh", "title": "install-oh-my-zsh.sh", "score": 4}, "wget -o- https://www.opscode.com/chef/install.sh | sudo bash": {"href": "https://github.com/foo/workstation-provision/blob/9a9b93ece34b59049fd4fc4193e6cb92c148b7c0/provision.sh", "title": "provision.sh", "score": 24}, "curl -l http://smartcd.org/install | bash": {"href": "https://github.com/fleadope/dotfiles/blob/776926917a7123ba4a3174be96635f91f65ba53c/smartcd/install.sh", "title": "smartcd/install.sh", "score": 7}, "wget -qo- https://toolbelt.heroku.com/install-ubuntu.sh | sh": {"href": "https://github.com/ne11/coursera-sue/blob/75291d58de5051e00a47b9f5ddf3b469911bb311/scripts/heroku.sh", "title": "scripts/heroku.sh", "score": 4}, "curl -lo- https://bit.ly/janus-bootstrap | bash": {"href": "https://github.com/tuttinator/dotfiles/blob/ec2789755fec5024d162747a83d8f42b0369a6e9/install/vim.sh", "title": "install/vim.sh", "score": 4}, "wget --no-check-certificate https://raw.github.com/joshfng/railsready/master/railsready.sh && bash railsready.sh": {"href": "https://github.com/meepeek/shellScript/blob/8ff7ebd0efd1a146d57e68433b256c054829b103/ruby-rvmInstall", "title": "ruby-rvmInstall", "score": 8}, "#\\curl -l https://get.rvm.io | bash -s head --autolibs=3 --ruby": {"href": "https://github.com/meepeek/shellScript/blob/8ff7ebd0efd1a146d57e68433b256c054829b103/ruby-rvmInstall", "title": "ruby-rvmInstall", "score": 4}, "# wget -qo - https://raw.github.com/maxmaximov/rc/master/.is/ubuntu.sh | sh": {"href": "https://github.com/maxmaximov/rc/blob/14a9914d250a8db45e1265197049be99f08f2f14/.is/ubuntu.sh", "title": ".is/ubuntu.sh", "score": 4}, "curl -l http://www.opscode.com/chef/install.sh | bash": {"href": "https://github.com/scivm/boxbuilder/blob/f77696e26754900f8e43f9b5d30e201a4fc4a73c/templates/CentOS-5.9-x86_64/scripts/chef.sh", "title": "templates/CentOS-5.9-x86_64/scripts/chef.sh", "score": 7}, "curl -l www.opscode.com/chef/install.sh | bash": {"href": "https://github.com/vjm/centos_6_4_x64/blob/ebdeb467250ccb8b9d48133f56f0de3e6b79527d/scripts/common/chef.sh", "title": "scripts/common/chef.sh", "score": 2}, "curl -l https://get.rvm.io | bash": {"href": "https://github.com/damienklinnert/dotfiles2/blob/7a27a0253bf203972dc32475916a9ed49f6ee15d/setup/10-rvm.sh", "title": "setup/10-rvm.sh", "score": 4}, "curl http://j.mp/spf13-vim3 -l -o - | sh": {"href": "https://github.com/avivl/.home/blob/41edb5bbfc6ae5950ea713453644728e995923ea/.bin/upd_spf3.sh", "title": ".bin/upd_spf3.sh", "score": 7}, "curl -kl http://install.perlbrew.pl | bash": {"href": "https://github.com/m-ueno/dotfiles-public/blob/dbb7fd1ed30015357495b9e13945aabe597c2e2e/install-perlbrew.sh", "title": "install-perlbrew.sh", "score": 7}, "curl -l https://www.opscode.com/chef/install.sh | sudo bash": {"href": "https://github.com/lucaslegoff/DrupalCookbook/blob/27286c4fd4cad022f46ac42fa211384d0183b353/chefInstall.sh", "title": "chefInstall.sh", "score": 25}, "wget -q -o - https://raw.github.com/gist/2204072/install_tmux_1.6_on_ubuntu_10.04.sh | sudo bash": {"href": "https://github.com/deercoder/Linux/blob/c2a521f9aaadc051b929ae3fa80a5bcd463e9157/Tmux/install.sh", "title": "Tmux/install.sh", "score": 24}, "curl -l https://www.opscode.com/chef/install.sh | bash": {"href": "https://github.com/cloudmesh/chef/blob/d323c6dfbda88fca2cbf635895d94f9ce8f2488f/fabfile/deprecated/install_chef_11_centos.sh", "title": "fabfile/deprecated/install_chef_11_centos.sh", "score": 4}, "curl -l get.rvm.io | bash -s stable --ruby": {"href": "https://github.com/m-ueno/dotfiles-public/blob/dbb7fd1ed30015357495b9e13945aabe597c2e2e/install-rvm.sh", "title": "install-rvm.sh", "score": 2}, "curl -sl http://j.mp/spf13-vim3 | bash": {"href": "https://github.com/vic/.../blob/33b60005c3a8f62244610d5c30aacdab83bbd889/install/spf13-vim.sh", "title": "install/spf13-vim.sh", "score": 7}, "curl -l http://xrl.us/perlbrewinstall | bash": {"href": "https://github.com/twinshadow/scriptfu/blob/ca94e0785a98d7b024a16d7dd1af44dd3ea8c70c/perl/perlbrew-install.sh", "title": "perl/perlbrew-install.sh", "score": 7}, "#\\curl -kl http://install.perlbrew.pl | bash": {"href": "https://github.com/mossaky/dotfiles/blob/f1f3f6ee3338980dcf5fa08f0e0b4ce983089854/installer/perlbrew_not_install.sh", "title": "installer/perlbrew_not_install.sh", "score": 7}, "curl -l https://get.rvm.io | bash -s stable": {"href": "https://github.com/haochi/setup_scripts/blob/083c48bfe35085302a47cee60248da760ae37c54/ubuntu/ruby.sh", "title": "ubuntu/ruby.sh", "score": 4}, "\\curl -l https://get.rvm.io | bash -s stable": {"href": "https://github.com/troywill/shiloh-setup/blob/5545f43385c04053e60f59fd4e9b80314de0aeb2/APPLICATIONS/RUBY/00-install-rvm.sh", "title": "APPLICATIONS/RUBY/00-install-rvm.sh", "score": 4}, "wget -qo - https://raw.github.com/maxmaximov/rc/master/.is/common.sh | sh": {"href": "https://github.com/maxmaximov/rc/blob/14a9914d250a8db45e1265197049be99f08f2f14/.is/ubuntu.sh", "title": ".is/ubuntu.sh", "score": 8}, "  wget -o - http://opscode.com/chef/install.sh | sudo bash -s -- -v $chef_version": {"href": "https://github.com/webhippie/baseboxes/blob/f3e131a0646baee00b3545ccb09a4e387d277001/definitions/debian-7.3-amd64/chef.sh", "title": "definitions/debian-7.3-amd64/chef.sh", "score": 54}, "curl -l https://get.rvm.io | bash -s $1": {"href": "https://github.com/fitus/workshop-sinatra/blob/4f7804e04cce43c7f6a4e8109417d3bfc6102525/install-rvm.sh", "title": "install-rvm.sh", "score": 4}, "  wget -o - http://opscode.com/chef/install.sh | sudo bash -s": {"href": "https://github.com/webhippie/baseboxes/blob/f3e131a0646baee00b3545ccb09a4e387d277001/definitions/debian-7.3-amd64/chef.sh", "title": "definitions/debian-7.3-amd64/chef.sh", "score": 27}, "curl -s get.gvmtool.net | bash": {"href": "https://github.com/kurron/vagrant-experiment/blob/e7e7645db53b267724be8bb9f2435b6dd2fc38c5/multiple-machines/gvm-command.sh", "title": "multiple-machines/gvm-command.sh", "score": 2}, "curl https://dl.google.com/dl/cloudsdk/release/install_google_cloud_sdk.bash | bash": {"href": "https://github.com/palladius/sakura/blob/8f46d8d43700296fc01f5920d5fd90285c4d6a0c/bin/google-gcloud-download", "title": "bin/google-gcloud-download", "score": 4}, "curl -ssl https://get.rvm.io | bash -s $1": {"href": "https://github.com/autocoders/vm/blob/fe6ae266dd09d87b4dd5c02dbb6c624a24d35092/install/provision/install-rvm.sh", "title": "install/provision/install-rvm.sh", "score": 4}, "curl -s -k -l http://git.io/bootstrap-rvm-bundler | bash -s": {"href": "https://github.com/zenops/cookbooks/blob/995da8ee8ec1180563d1e31d675be99f4d3d67e7/scripts/bootstrap", "title": "scripts/bootstrap", "score": 7}, " curl -l https://get.rvm.io | bash -s $1": {"href": "https://github.com/gpeal/Northwestern-CTECs/blob/a7124671acc7b435faab86e2de902fbda823254e/bootstrap-user.sh", "title": "bootstrap-user.sh", "score": 4}, "\\curl -l https://get.rvm.io | bash -s stable --rails": {"href": "https://github.com/alexcastano/dotfiles/blob/6eb962816288a60d0ccaef70924afe309f0a3567/installers/rvm.sh", "title": "installers/rvm.sh", "score": 4}, "curl -l https://get.rvm.io | bash -s stable;": {"href": "https://github.com/fmarcos83/scripts/blob/62dee2b3e2c80ad7b8bd8cb6b23134207056eded/rvmInstall", "title": "rvmInstall", "score": 4}}
+{
+    "  wget -O - http://opscode.com/chef/install.sh | sudo bash -s": {
+        "href": "https://github.com/webhippie/baseboxes/blob/f3e131a0646baee00b3545ccb09a4e387d277001/definitions/debian-7.3-amd64/chef.sh",
+        "score": 27,
+        "title": "definitions/debian-7.3-amd64/chef.sh"
+    },
+    "  wget -O - http://opscode.com/chef/install.sh | sudo bash -s -- -v $CHEF_VERSION": {
+        "href": "https://github.com/webhippie/baseboxes/blob/f3e131a0646baee00b3545ccb09a4e387d277001/definitions/debian-7.3-amd64/chef.sh",
+        "score": 54,
+        "title": "definitions/debian-7.3-amd64/chef.sh"
+    },
+    " curl -L https://get.rvm.io | bash -s $1": {
+        "href": "https://github.com/gpeal/Northwestern-CTECs/blob/a7124671acc7b435faab86e2de902fbda823254e/bootstrap-user.sh",
+        "score": 4,
+        "title": "bootstrap-user.sh"
+    },
+    "# wget -qO - https://raw.github.com/maxmaximov/rc/master/.is/ubuntu.sh | sh": {
+        "href": "https://github.com/maxmaximov/rc/blob/14a9914d250a8db45e1265197049be99f08f2f14/.is/ubuntu.sh",
+        "score": 4,
+        "title": ".is/ubuntu.sh"
+    },
+    "#\\curl -L https://get.rvm.io | bash -s head --autolibs=3 --ruby": {
+        "href": "https://github.com/meepeek/shellScript/blob/8ff7ebd0efd1a146d57e68433b256c054829b103/ruby-rvmInstall",
+        "score": 4,
+        "title": "ruby-rvmInstall"
+    },
+    "#\\curl -kL http://install.perlbrew.pl | bash": {
+        "href": "https://github.com/mossaky/dotfiles/blob/f1f3f6ee3338980dcf5fa08f0e0b4ce983089854/installer/perlbrew_not_install.sh",
+        "score": 7,
+        "title": "installer/perlbrew_not_install.sh"
+    },
+    "\\curl -L https://get.rvm.io | bash -s stable": {
+        "href": "https://github.com/troywill/shiloh-setup/blob/5545f43385c04053e60f59fd4e9b80314de0aeb2/APPLICATIONS/RUBY/00-install-rvm.sh",
+        "score": 4,
+        "title": "APPLICATIONS/RUBY/00-install-rvm.sh"
+    },
+    "\\curl -L https://get.rvm.io | bash -s stable --rails": {
+        "href": "https://github.com/alexcastano/dotfiles/blob/6eb962816288a60d0ccaef70924afe309f0a3567/installers/rvm.sh",
+        "score": 4,
+        "title": "installers/rvm.sh"
+    },
+    "curl -L get.rvm.io | bash -s stable --ruby": {
+        "href": "https://github.com/m-ueno/dotfiles-public/blob/dbb7fd1ed30015357495b9e13945aabe597c2e2e/install-rvm.sh",
+        "score": 2,
+        "title": "install-rvm.sh"
+    },
+    "curl -L http://smartcd.org/install | bash": {
+        "href": "https://github.com/fleadope/dotfiles/blob/776926917a7123ba4a3174be96635f91f65ba53c/smartcd/install.sh",
+        "score": 7,
+        "title": "smartcd/install.sh"
+    },
+    "curl -L http://www.opscode.com/chef/install.sh | bash": {
+        "href": "https://github.com/scivm/boxbuilder/blob/f77696e26754900f8e43f9b5d30e201a4fc4a73c/templates/CentOS-5.9-x86_64/scripts/chef.sh",
+        "score": 7,
+        "title": "templates/CentOS-5.9-x86_64/scripts/chef.sh"
+    },
+    "curl -L http://xrl.us/perlbrewinstall | bash": {
+        "href": "https://github.com/twinshadow/scriptfu/blob/ca94e0785a98d7b024a16d7dd1af44dd3ea8c70c/perl/perlbrew-install.sh",
+        "score": 7,
+        "title": "perl/perlbrew-install.sh"
+    },
+    "curl -L https://get.rvm.io | bash": {
+        "href": "https://github.com/damienklinnert/dotfiles2/blob/7a27a0253bf203972dc32475916a9ed49f6ee15d/setup/10-rvm.sh",
+        "score": 4,
+        "title": "setup/10-rvm.sh"
+    },
+    "curl -L https://get.rvm.io | bash -s $1": {
+        "href": "https://github.com/fitus/workshop-sinatra/blob/4f7804e04cce43c7f6a4e8109417d3bfc6102525/install-rvm.sh",
+        "score": 4,
+        "title": "install-rvm.sh"
+    },
+    "curl -L https://get.rvm.io | bash -s stable": {
+        "href": "https://github.com/haochi/setup_scripts/blob/083c48bfe35085302a47cee60248da760ae37c54/ubuntu/ruby.sh",
+        "score": 4,
+        "title": "ubuntu/ruby.sh"
+    },
+    "curl -L https://get.rvm.io | bash -s stable;": {
+        "href": "https://github.com/fmarcos83/scripts/blob/62dee2b3e2c80ad7b8bd8cb6b23134207056eded/rvmInstall",
+        "score": 4,
+        "title": "rvmInstall"
+    },
+    "curl -L https://www.opscode.com/chef/install.sh | bash": {
+        "href": "https://github.com/cloudmesh/chef/blob/d323c6dfbda88fca2cbf635895d94f9ce8f2488f/fabfile/deprecated/install_chef_11_centos.sh",
+        "score": 4,
+        "title": "fabfile/deprecated/install_chef_11_centos.sh"
+    },
+    "curl -L https://www.opscode.com/chef/install.sh | sudo bash": {
+        "href": "https://github.com/lucaslegoff/DrupalCookbook/blob/27286c4fd4cad022f46ac42fa211384d0183b353/chefInstall.sh",
+        "score": 25,
+        "title": "chefInstall.sh"
+    },
+    "curl -L www.opscode.com/chef/install.sh | bash": {
+        "href": "https://github.com/vjm/centos_6_4_x64/blob/ebdeb467250ccb8b9d48133f56f0de3e6b79527d/scripts/common/chef.sh",
+        "score": 2,
+        "title": "scripts/common/chef.sh"
+    },
+    "curl -Lo- https://bit.ly/janus-bootstrap | bash": {
+        "href": "https://github.com/tuttinator/dotfiles/blob/ec2789755fec5024d162747a83d8f42b0369a6e9/install/vim.sh",
+        "score": 4,
+        "title": "install/vim.sh"
+    },
+    "curl -kL http://install.perlbrew.pl | bash": {
+        "href": "https://github.com/m-ueno/dotfiles-public/blob/dbb7fd1ed30015357495b9e13945aabe597c2e2e/install-perlbrew.sh",
+        "score": 7,
+        "title": "install-perlbrew.sh"
+    },
+    "curl -s -k -L http://git.io/bootstrap-rvm-bundler | bash -s": {
+        "href": "https://github.com/zenops/cookbooks/blob/995da8ee8ec1180563d1e31d675be99f4d3d67e7/scripts/bootstrap",
+        "score": 7,
+        "title": "scripts/bootstrap"
+    },
+    "curl -s get.gvmtool.net | bash": {
+        "href": "https://github.com/kurron/vagrant-experiment/blob/e7e7645db53b267724be8bb9f2435b6dd2fc38c5/multiple-machines/gvm-command.sh",
+        "score": 2,
+        "title": "multiple-machines/gvm-command.sh"
+    },
+    "curl -sL http://j.mp/spf13-vim3 | bash": {
+        "href": "https://github.com/vic/.../blob/33b60005c3a8f62244610d5c30aacdab83bbd889/install/spf13-vim.sh",
+        "score": 7,
+        "title": "install/spf13-vim.sh"
+    },
+    "curl -sSL https://get.rvm.io | bash -s $1": {
+        "href": "https://github.com/autocoders/vm/blob/fe6ae266dd09d87b4dd5c02dbb6c624a24d35092/install/provision/install-rvm.sh",
+        "score": 4,
+        "title": "install/provision/install-rvm.sh"
+    },
+    "curl http://j.mp/spf13-vim3 -L -o - | sh": {
+        "href": "https://github.com/avivl/.home/blob/41edb5bbfc6ae5950ea713453644728e995923ea/.bin/upd_spf3.sh",
+        "score": 7,
+        "title": ".bin/upd_spf3.sh"
+    },
+    "curl https://dl.google.com/dl/cloudsdk/release/install_google_cloud_sdk.bash | bash": {
+        "href": "https://github.com/palladius/sakura/blob/8f46d8d43700296fc01f5920d5fd90285c4d6a0c/bin/google-gcloud-download",
+        "score": 4,
+        "title": "bin/google-gcloud-download"
+    },
+    "wget --no-check-certificate https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | sh": {
+        "href": "https://github.com/sensae/dotfiles/blob/c621faa998e4579644f5a0d6c3cb68a269ad65fe/install-oh-my-zsh.sh",
+        "score": 4,
+        "title": "install-oh-my-zsh.sh"
+    },
+    "wget --no-check-certificate https://raw.github.com/joshfng/railsready/master/railsready.sh && bash railsready.sh": {
+        "href": "https://github.com/meepeek/shellScript/blob/8ff7ebd0efd1a146d57e68433b256c054829b103/ruby-rvmInstall",
+        "score": 8,
+        "title": "ruby-rvmInstall"
+    },
+    "wget -O- https://www.opscode.com/chef/install.sh | sudo bash": {
+        "href": "https://github.com/foo/workstation-provision/blob/9a9b93ece34b59049fd4fc4193e6cb92c148b7c0/provision.sh",
+        "score": 24,
+        "title": "provision.sh"
+    },
+    "wget -q -O - https://raw.github.com/gist/2204072/install_tmux_1.6_on_ubuntu_10.04.sh | sudo bash": {
+        "href": "https://github.com/deercoder/Linux/blob/c2a521f9aaadc051b929ae3fa80a5bcd463e9157/Tmux/install.sh",
+        "score": 24,
+        "title": "Tmux/install.sh"
+    },
+    "wget -qO - https://raw.github.com/maxmaximov/rc/master/.is/common.sh | sh": {
+        "href": "https://github.com/maxmaximov/rc/blob/14a9914d250a8db45e1265197049be99f08f2f14/.is/ubuntu.sh",
+        "score": 8,
+        "title": ".is/ubuntu.sh"
+    },
+    "wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh": {
+        "href": "https://github.com/ne11/coursera-sue/blob/75291d58de5051e00a47b9f5ddf3b469911bb311/scripts/heroku.sh",
+        "score": 4,
+        "title": "scripts/heroku.sh"
+    }
+}

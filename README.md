@@ -1,3 +1,7 @@
+This is a Python3 project that looks on github for offending curl2sudo lines
+and dumps them to offenders.json.
+
+The score is computed based on how 'bad' it is and is almost complete arbitrary.
 Notes
 =====
 
